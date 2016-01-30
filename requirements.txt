@@ -1,0 +1,8 @@
+dj-database-url==0.3.0
+Django==1.8
+gunicorn==19.4.5
+mercurial==3.5.1
+numpy==1.10.1
+pygame==1.9.2a0
+wheel==0.24.0
+whitenoise==2.0.6
