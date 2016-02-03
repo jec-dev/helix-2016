@@ -78,6 +78,7 @@ ul, ol {
 	z-index: 99999;
 	height: 100%;
 	text-align: center;
+	overflow: scroll;
 }
 
 #status {
