@@ -78,9 +78,27 @@ ul, ol {
 	z-index: 99999;
 	height: 100%;
 	text-align: center;
-	overflow: scroll;
-}
+	max-width: 100%;
+	max-height: 100%;
+	overflow: auto;
 
+}
+.temp-text {
+	position: relative;
+	padding-top: 10%;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 50%;
+	max-width: 100%;
+	max-height: 100%;
+	overflow: auto;	
+}
+.temp-text H1 {
+	font-size: 500%;
+	text-transform: uppercase;
+	color: #d9e0e2;
+	letter-spacing: 2px;
+}
 #status {
 	position: absolute;
 	left: 50%;
