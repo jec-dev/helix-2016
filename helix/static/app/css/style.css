@@ -206,7 +206,7 @@ header p {
 }
 .intro-text img {
 	    display: block;
-    margin-left: 32%;
+    margin-left: auto;
     margin-right: auto;
 }
 .intro-text H1 {
