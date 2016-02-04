@@ -107,7 +107,9 @@ ul, ol {
 	color: red;
 }
 .img-logo {
-	width: 55%;
+	display: block;
+    max-width: 55%;
+    height: auto;
 }
 #status {
 	position: absolute;
@@ -199,8 +201,13 @@ header p {
 	position: relative;
 	padding-top: 200px;
 	padding-right: 0;
-	padding-left: 180px;
+	padding-left: 0;
 	padding-bottom: 170px;
+}
+.intro-text img {
+	    display: block;
+    margin-left: 32%;
+    margin-right: auto;
 }
 .intro-text H1 {
 	font-size: 70px;
