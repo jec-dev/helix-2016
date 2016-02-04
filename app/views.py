@@ -30,4 +30,4 @@ def landing_view(request):
 			print 'not valid', form.errors
 
 		#return render_to_response('landing.html','form':form,context_instance=RequestContext(request))		 
-	return render_to_response('temp.html', context)
+	return render_to_response('landing.html', context)

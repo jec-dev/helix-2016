@@ -99,6 +99,10 @@ ul, ol {
 	color: #d9e0e2;
 	letter-spacing: 2px;
 }
+#workshop {
+	padding-left: 20%;
+	padding-top: 10px;
+}
 #status {
 	position: absolute;
 	left: 50%;
