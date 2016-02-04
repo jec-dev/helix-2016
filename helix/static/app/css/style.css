@@ -64,10 +64,23 @@ ul, ol {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #f1c40f;
+	background: #032e3a;
 	z-index: 99999;
 	height: 100%;
 }
+#main {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #f1c40f;
+	z-index: 99999;
+	height: 100%;
+	text-align: center;
+	overflow: scroll;
+}
+
 #status {
 	position: absolute;
 	left: 50%;
