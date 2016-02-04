@@ -39,13 +39,7 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="{% static 'app/js/modernizr.custom.js' %}"></script>
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="{% static 'app/https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="{% static 'app/https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <script src="{% static 'app/js/double-helix.jquery.js' %}" type="text/javascript"></script>
 <script type="text/javascript">
@@ -58,6 +52,13 @@
     </script>
 </head>
 <body>
+<!-- Hi ! Glad you are here ! :D
+
+  I built it xoxo
+
+  Regards,
+  The Developer
+-->
 
 <div id="preloader">
   <div id="status"> <img src="{% static 'app/img/preloader.gif' %}" height="64" width="64" alt=""> </div>
@@ -89,8 +90,12 @@
 <!-- Header -->
 <header class="text-center" name="home">
   <div class="intro-text">
-    <h1 class="wow fadeInDown"><strong><span class="color">Helix </span></strong></h1>
-    <p class="wow fadeInDown">Annual Techno Management Fest JECollege</p>
+    <h1 class="wow fadeInDown"><strong><span class="color"><a href="/"><img src="{% static 'app/img/logo.png' %}" height="130" width="620" alt=""></a> </span></strong></h1>
+    <p class="wow fadeInDown"></p>
+        <p class="wow fadeInDown"></p>
+
+    <p class="wow fadeInDown"></p>
+
 </header>
 
 <!-- Services Section -->
@@ -100,12 +105,19 @@
       <h2>What is <strong>Helix ?</strong></h2>
       <hr>
       <div class="clearfix"></div>
-      <p>Helix provides stage to the well known speakers of different domains for the benefit of students of Jabalpur Engineering College.<br> Speakers of this fest are proclaimed expertise of their field. Sharing their experience helps immensely the students in every walk of their life.<br><br>
-Helix aims at exploring minds of students and sending a thought provoking wave for the betterment of the bigger picture.
-It is a platform for ideas worth spreading.Helix today shares the ideas from science to business to social issues.</p>
+      <p>Helix is the Inter College Techno-Management fest of Jabalpur Engineering College. It is a platform where experience empowers intellect. Helix was started in 2012-13 as a conference where technology and design converged. Helix today shares the ideas from Technology (science) to business to social issues.<br><br>
+
+The event is about spreading ideas in full capacity in various diverse fields like technology, creativity, motivation, social, entrepreneurship and many more. The basic motive behind this fest is to provide an opportunity for the overall development of the students.<br><br>
+
+Helix provides stage to the well known speakers of different domains for the benefit of students of Jabalpur Engineering College. Speakers of this fest are proclaimed expertise of their field. Sharing their experience will help immensely the students in every walk of life.<br><br>
+
+Helix aims at exploring minds of students and sending a thought provoking wave for the betterment of the bigger picture.</p>
     </div>
     <div class="space"></div>
-    <div class="row">
+
+    <!-- NOTABLE EVENTS (IF REQUIRED) -->
+
+    <!-- <div class="row">
       <div class="col-md-3 col-sm-6 service wow fadeInUp" data-wow-delay="200ms">
         <h4><strong>Event Category 1</strong></h4>
         <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
@@ -122,20 +134,25 @@ It is a platform for ideas worth spreading.Helix today shares the ideas from sci
         <h4><strong>Event Category 3</strong></h4>
         <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
       </div>
-    </div>
+    </div> -->
+
   </div>
 </div>
 
+
+<!-- Blurred Jashan -->
 <div id="testimonials-section" class="text-center">
   <div class="container">
     <div class="section-title wow fadeInDown">
-          </div>
+      </div>
 
       </div>
     </div>
   </div>
 </div>
-<!-- Event Section -->
+
+
+<!-- Events Section -->
 <div id="works-section" class="text-center">
   <div class="container"> <!-- Container -->
     <div class="section-title wow fadeInDown">
@@ -245,12 +262,19 @@ It is a platform for ideas worth spreading.Helix today shares the ideas from sci
               <img id="workshop" src="{% static 'app/img/workshop.png' %}" class="img-responsive" alt="Event Title 9"> </a> </div>
           </div>
         </div>  -->
+      <h2>Stay tuned for more..</strong></h2>
       </div>
     </div>
   </div>
 </div>
 
-<!-- Team Section -->
+<!-- IF SPEAKER SECTION IS ENABLED:
+  * SWAP CSS OF #team-section and #contact-section
+  * so that we have alternate color bands :)
+-->
+
+
+<!-- Speakers Section -->
 <!-- <div id="team-section" class="text-center">
   <div class="container">
     <div class="section-title wow fadeInDown">
@@ -333,7 +357,7 @@ It is a platform for ideas worth spreading.Helix today shares the ideas from sci
         <p>helix@jecjabalpur.ac.in</p>
       </div>
       <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
-        <p> +91 882-793-1450</p>
+        <p> +91 898-921-1150</p>
       </div>
       <div class="clearfix"></div>
     </div>
@@ -374,7 +398,7 @@ It is a platform for ideas worth spreading.Helix today shares the ideas from sci
 </div>
 <div id="footer">
   <div class="container">
-      <p>Copyright © 2016 <a href="https://github.com/jec-dev/" rel="nofollow">jec-dev</a></p>
+      <p>© 2016 Jabalpur Engineering College. All Rights Reserved.<br>Built with <span id="heart">&hearts;</span> by <a href="https://github.com/jec-dev/" rel="nofollow">jec-dev</a></p>
   </div>
 </div>
 
@@ -400,6 +424,7 @@ It is a platform for ideas worth spreading.Helix today shares the ideas from sci
             <p>This is an application development competition. Participants can have individual participation or group participation. The winner will be decided by beta testing of the app, i.e., the participant(s) will have to promote his/her/their app so that people install it on their devices and give their reviews or rating.
             </p>
             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+            <h2><br>Coming Soon!</h2>
           </div>
         </div>
       </div>
@@ -426,6 +451,7 @@ It is a platform for ideas worth spreading.Helix today shares the ideas from sci
               in Jabalpur.</p>
 
             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+            <h2><br>Coming Soon!</h2>
           </div>
         </div>
       </div>
@@ -450,6 +476,7 @@ It is a platform for ideas worth spreading.Helix today shares the ideas from sci
             <img class="img-responsive img-centered" src="{% static 'app/img/startup.png' %}" alt="image here">
             <p>Time to portray your ideas to the world. In the spirit of promoting entrepreneurship in our society, we aim at giving young entrepreneurs a platform to showcase their business ideas that generate a social impact with financial sustainability. Inspired by the recent Startup India mission of our Prime Minister, we put young minds to a scaffold through this competition by letting them explore their local/global market and grab the opportunities in our country which currently has the third largest number of startups in the world and an immensely fast growing economy.</p>
             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+            <h2><br>Coming Soon!</h2>
           </div>
         </div>
       </div>
@@ -476,6 +503,7 @@ It is a platform for ideas worth spreading.Helix today shares the ideas from sci
              way to trigger an exchange of viewpoints among experts for the awareness and upliftment of our society.</p>
 
             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+            <h2><br>Coming Soon!</h2>
           </div>
         </div>
       </div>
@@ -498,9 +526,13 @@ It is a platform for ideas worth spreading.Helix today shares the ideas from sci
             <h2>Humans of JEC</h2>
             <p class="item-intro">A pictorial story of life at JEC.</p>
             <img class="img-responsive img-centered" src="{% static 'app/img/photography.png' %}" alt="here">
-            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <p>The quintessence of a scenario lies in the eyes of the one who pictures it from one's own imagination.
+And there is no better way of demonstrating that beauty than capturing it through the eyes of your camera lens.<br>
+
+Helix gives you a chance to bring out your unique visions to the world through the art of photography. Let the silence speak, let the stills move into life.</p>
 
             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+            <h2><br>Coming Soon!</h2>
           </div>
         </div>
       </div>
@@ -527,6 +559,7 @@ It is a platform for ideas worth spreading.Helix today shares the ideas from sci
               You will be tested for your competence in your programming, coordination and ability to visualise in the peak of time.</p>
 
             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+            <h2><br>Coming Soon!</h2>
           </div>
         </div>
       </div>
@@ -552,6 +585,7 @@ It is a platform for ideas worth spreading.Helix today shares the ideas from sci
             <p>Mock Campus will provide a platform to the students for their SWOT analysis in terms of their preparation for the upcoming campus drives. The mock campus simulates exactly the company recruitment process with the same vigor and rigour. This mock will have a written test, interview and group discussion.</p>
 
             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+            <h2><br>Coming Soon!</h2>
           </div>
         </div>
       </div>
@@ -577,6 +611,7 @@ It is a platform for ideas worth spreading.Helix today shares the ideas from sci
             <p>Mock UPSC will test the aspirants preparing for civil services and avail them with an opportunity to judge their preparations at all three stages. This event will comprise of the preliminary test, mains and personal interview (by a panel of senior IAS/IPS).</p>
 
             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+            <h2><br>Coming Soon!</h2>
           </div>
         </div>
       </div>
@@ -602,6 +637,7 @@ It is a platform for ideas worth spreading.Helix today shares the ideas from sci
             <p>At Helix students will get a hands-on experience on various disciplines ofengineering, providing the students a wider perspective of technical area. Under the ambit of this event, we will organize several workshops. Experts from leading companies will act as workshop coordinators.</p>
 
             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close </button>
+            <h2><br>Coming Soon!</h2>
           </div>
         </div>
       </div>

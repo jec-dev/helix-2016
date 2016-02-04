@@ -25,7 +25,7 @@ h5 {
 }
 p {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
+	font-size: 15px;
 }
 a {
 	color: #5b777f;
@@ -102,6 +102,9 @@ ul, ol {
 #workshop {
 	padding-left: 20%;
 	padding-top: 10px;
+}
+#heart {
+	color: red;
 }
 #status {
 	position: absolute;
@@ -191,9 +194,9 @@ header p {
 }
 .intro-text {
 	position: relative;
-	padding-top: 250px;
+	padding-top: 200px;
 	padding-right: 0;
-	padding-left: 0;
+	padding-left: 180px;
 	padding-bottom: 170px;
 }
 .intro-text H1 {
