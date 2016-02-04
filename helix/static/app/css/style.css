@@ -106,6 +106,9 @@ ul, ol {
 #heart {
 	color: red;
 }
+.img-logo {
+	width: 55%;
+}
 #status {
 	position: absolute;
 	left: 50%;
