@@ -31,3 +31,39 @@ def landing_view(request):
 
 		#return render_to_response('landing.html','form':form,context_instance=RequestContext(request))		 
 	return render_to_response('landing.html', context)
+
+def events_view(request):
+	context = RequestContext(request)
+	return render_to_response('event.html',context)
+
+def event_app(request):
+	context = RequestContext(request)
+	return render_to_response('app.html', context)
+
+def event_smart(request):
+	context = RequestContext(request)
+	return render_to_response('smart.html', context)
+
+def event_startup(request):
+	context = RequestContext(request)
+	return render_to_response('startup.html', context)
+
+def event_roundtable(request):
+	context = RequestContext(request)
+	return render_to_response('roundtable.html', context)
+
+def event_photo(request):
+	context = RequestContext(request)
+	return render_to_response('photo.html', context)
+
+def event_code(request):
+	context = RequestContext(request)
+	return render_to_response('code.html', context)
+
+def event_mockcamp(request):
+	context = RequestContext(request)
+	return render_to_response('mockcamp.html', context)
+
+def event_mockupsc(request):
+	context = RequestContext(request)
+	return render_to_response('mockupsc.html', context)			

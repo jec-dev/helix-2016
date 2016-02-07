@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block event %}
+<!-- Event Modal 1 -->
+<div id="works-section" class="text-center">
+
+<div class="section-title wow fadeInDown" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Event Details Go Here -->
+            <h2>App Development</h2>
+            <p class="item-intro">Bring out the creator in you.</p>
+            <img class="img-responsive img-centered" src="{% static 'app/img/mobileapp.png' %}" alt="image here">
+            <p>This is an application development competition. Participants can have individual participation or group participation. The winner will be decided by beta testing of the app, i.e., the participant(s) will have to promote his/her/their app so that people install it on their devices and give their reviews or rating.
+            </p>
+            <h2><br>Coming Soon!</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block event %}
+
+<div id="works-section" class="text-center">
+
+<div class="section-title wow fadeInDown" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body"> 
+            <!-- Event Details Go Here -->
+
+             <h2>The Round Table Conclave</h2>
+            <p class="item-intro">Your opinion MATTERS!</p>
+            <img class="img-responsive img-centered" src="{% static 'app/img/panel.png' %}" alt="image here">
+            <p>This event will host a number of renowned personalities as our panelists. They will exchange their ideas and discussvarious technological aspects, by asking questions or reacting to the opinions of other panel members. This will be followed by a question and answer session by the students. This event is directed towards providing a useful
+             way to trigger an exchange of viewpoints among experts for the awareness and upliftment of our society.</p>
+            <h2><br>Coming Soon!</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+{% endblock %}
