@@ -108,8 +108,8 @@ ul, ol {
 }
 .img-logo {
 	display: block;
-    max-width: 55%;
-    height: auto;
+    max-width: 30%;
+    max-height: 50%;
 }
 #status {
 	position: absolute;
@@ -183,7 +183,6 @@ hr {
 }
 /* Home Style */
 header {
-	display: table;
 	width: 100%;
 	background: url(../img/paper.jpg) no-repeat bottom center;
 	background-size: cover;
