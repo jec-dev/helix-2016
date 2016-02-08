@@ -41,8 +41,12 @@ function main() {
         var navHeight = $(window).height() - 100;
         if ($(window).scrollTop() > navHeight) {
             $('.navbar-default').addClass('on');
+            $('#menu.navbar-default .navbar-nav > li > a').css('color', '#5b777f');
+            $('#menu a.navbar-brand').css('color', '#5b777f');
         } else {
             $('.navbar-default').removeClass('on');
+            $('#menu.navbar-default .navbar-nav > li > a').css('color', 'black');
+            $('#menu a.navbar-brand').css('color', 'black');
         }
     });
 
