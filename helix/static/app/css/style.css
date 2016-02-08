@@ -163,6 +163,9 @@ hr {
 #menu.navbar-default .navbar-nav > li > a:hover {
 	color: #000;
 }
+#menu.navbar-default .navbar-brand {
+	color: #000;
+}
 .on {
 	background-color: #032731 !important;
 	padding: 0 !important;
