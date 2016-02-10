@@ -66,4 +66,8 @@ def event_mockcamp(request):
 
 def event_mockupsc(request):
 	context = RequestContext(request)
-	return render_to_response('mockupsc.html', context)			
+	return render_to_response('mockupsc.html', context)
+
+def page_not_found(request):
+	context = RequestContext(request)
+	return render_to_response('404.html', context)
