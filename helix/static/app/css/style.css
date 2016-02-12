@@ -777,10 +777,8 @@ label {
 	vertical-align: bottom;
 	padding-bottom: 10px;
 }
-
-p.pdflink{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
+p.pdflink a:hover {
+	color: #00007f;
 }
 
 
