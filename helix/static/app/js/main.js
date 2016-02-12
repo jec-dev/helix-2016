@@ -48,6 +48,12 @@ function main() {
             $('#menu.navbar-default .navbar-nav > li > a').css('color', 'black');
             $('#menu a.navbar-brand').css('color', 'black');
         }
+
+        $(".arrow bounce").remove();
+        if($(window).scrollTop() + $(window).height() <= $(document).height()) {
+            $('.text-center intro-text').removeClass('arrow bounce');
+   }
+
     });
 
     $('body').scrollspy({ 
@@ -130,6 +136,9 @@ function main() {
         });
 
     });
+
+    // Arrow
+
 
   	/*====================================
     WOW JS
