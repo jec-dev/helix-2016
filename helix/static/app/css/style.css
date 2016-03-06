@@ -582,6 +582,16 @@ img.img-circle.team-img {
 	background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
 }
+#contact-section-base {
+	padding: 80px 0 100px 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#032731+0,032e3a+20,032e3a+100,032731+100 */
+	background: rgb(3,39,49); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#032731', endColorstr='#032731', GradientType=0 ); /* IE6-9 */
+	color: #5b777f;
+}
 #contact-section hr {
 	background: #a9971c;
 }
@@ -592,7 +602,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', end
 #contact-section form {
 	padding: 30px 0;
 }
-#contact-section .fa {
+#contact-section-base .fa {
+	// color: #f8e287;
+	margin-bottom: 10px;
+}
+#contact-section-base hr {
+	background: #a9971c;
+}
+#contact-section-base h3 {
+	font-size: 20px;
+	font-weight: 400;
+}
+#contact-section-base form {
+	padding: 30px 0;
+}
+#contact-section-base .fa {
 	// color: #f8e287;
 	margin-bottom: 10px;
 }
@@ -657,6 +681,66 @@ label {
 	color: #5b777f;
 }
 #contact-section .text-danger {
+	color: #cc3300;
+	text-align: left;
+}
+
+
+#contact-section-base .form-control {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+#contact-section-base .form-control:focus {
+	border-color: inherit;
+	outline: 0;
+	-webkit-box-shadow: transparent;
+	box-shadow: transparent;
+}
+#contact-section-base .social {
+	margin-top: 60px;
+}
+#contact-section-base .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+#contact-section-base .social i.fa {
+	font-size: 26px;
+	padding: 4px 5px;
+	// color: #f8e287;
+	transition: all 0.5s;
+}
+#contact-section-base .social i.fa:hover {
+	color: #032731;
+}
+#contact-section-base .btn {
+	background: transparent;
+	border: 2px solid #fef9e7;
+	border-radius: 4px;
+	padding: 6px 14px;
+	margin-top: 20px;
+	color: #fef9e7;
+	font-size: 16px;
+	transition: all 0.5s;
+}
+#contact-section-base .btn:hover, #contact-section .btn:focus {
+	background: #fef9e7;
+	border: 2px solid #fef9e7;
+	color: #5b777f;
+}
+#contact-section-base .text-danger {
 	color: #cc3300;
 	text-align: left;
 }
