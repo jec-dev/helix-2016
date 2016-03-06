@@ -11,6 +11,7 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'app.views.landing_view'),
     url(r'^events/$', 'app.views.events_view'),
+    url(r'^gallery/$', 'app.views.gallery_view'),
     url(r'^events/app/$', 'app.views.event_app'),
     url(r'^events/smart/$', 'app.views.event_smart'),
     url(r'^events/startup/$', 'app.views.event_startup'),

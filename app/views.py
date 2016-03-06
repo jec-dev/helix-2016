@@ -36,6 +36,10 @@ def events_view(request):
 	context = RequestContext(request)
 	return render_to_response('event.html',context)
 
+def gallery_view(request):
+	context = RequestContext(request)
+	return render_to_response('gallery.html',context)	
+
 def event_app(request):
 	context = RequestContext(request)
 	return render_to_response('app.html', context)
